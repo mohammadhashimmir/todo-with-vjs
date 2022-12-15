@@ -1,0 +1,251 @@
+Body{
+    /* background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("Pixel.jpg"); */
+  background-color: #0c1821;
+  
+    
+}
+nav{
+    font-family:'Pacifico', cursive;
+    font-size:1em;
+    border-bottom: 2px inset #adb5bd;
+    color: ivory;
+    width: 40%;
+    padding:1.2em;
+    margin-left:  calc(10%/6);
+} 
+span{
+    margin-left: 10px;
+    text-decoration:solid;
+}     
+#header{ 
+    text-align: center;
+    font-size: 40px;
+     color: ivory;
+     text-shadow:1px 1px 6px slategray;
+}
+
+#mainP{
+    margin-top: -30px;
+    background-color:rgba(0,0,0,0.2);
+    border:solid 2px slategray; 
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column; 
+   
+}
+.topForm{
+    text-align: center;
+    margin-top: 20px;
+}
+#formx{
+display: flex;
+}
+
+#inp{
+    flex: 1 1 0%;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    border:solid 2px slategray; 
+    background-color: ivory;
+    font-weight: bolder;
+   
+}
+.btn1{
+    border-radius: 18px;
+    transition: all 0.3s;
+    border:solid 1px slategray; 
+    background-color: ivory; 
+    margin-left: 5px;
+}
+.btn2{
+    border-radius: 18px;
+    transition: all 0.3s;
+    border:solid 1px slategray; 
+    background-color: ivory; 
+    margin-left: 10px;
+}
+.btn1:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em azure;
+    transform: translateY(-0.3em);
+    cursor: pointer;
+}
+.btn2:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em azure;
+    transform: translateY(-0.3em);
+    cursor: pointer;
+}
+#hl{
+    margin-top: 20px;
+    margin-bottom: -5px;
+    font-size: 32px;
+    font-weight: bolder;
+     color: ivory;
+     font-family: 'Montserrat', sans-serif;
+     text-shadow:1px 1px 5px slategray;
+}
+.tasks .indTask{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+   margin-bottom: -10px;
+}
+.tasks .indTask .content{
+    flex: 1 1 0%;
+}
+.tasks .indTask .content .taskText{
+    width: 350px;
+    padding: 0.3rem;
+    border-radius: 12px;
+    border:solid 2px slategray; 
+    background-color: ivory;
+    font-weight: bolder;
+
+    
+}
+.tasks .indTask .crud{
+    display: flex;
+  
+}   
+.indTask .crud button{
+    border-radius: 10px;
+    transition: all 0.3s;
+    border:solid 1px slategray; 
+    background-color: ivory;
+    margin-left: 5px;
+    margin-top: 2px;
+    height: 35px;
+   
+}
+.indTask .crud button:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em azure;
+    transform: translateY(-0.3em);
+    cursor: pointer;
+}
+
+#del{
+    text-align: center;
+}
+.deleteBtn{
+    border: 1px solid slategray;
+    border-radius: 10px;
+    transition: all 0.3s;
+    margin-bottom: 10px;
+    background-color: ivory;
+}
+
+.deleteBtn:hover{
+    box-shadow: 0 0.5em 0.5em -0.4em azure;
+    transform: translateY(-0.3em);
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:480px){
+    #mainP{
+        width:95%!important;
+        margin-left:2.5%;
+    }
+    .indTask{
+        height: 10px;
+        margin-top: 20px;
+        width: 100px!important;
+    }
+    .tasks .indTask .content .taskText{
+        width: 200px;
+    }
+    .deleteBtn{
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:550px){
+    #mainP{
+        width:80%!important;
+        margin-left:10%;
+    }
+    .indTask{
+        height: 10px;
+        margin-top: 20px;
+        width: 150px!important;
+    }
+    .tasks .indTask .content .taskText{
+        width: 250px;
+    }
+    .deleteBtn{
+        margin-top: 40px;
+    }
+}
+@media only screen and (min-width:551px) and (max-width:630px){
+    #mainP{
+        width:70%!important;
+        margin-left:15%;
+    }
+    .indTask{
+        height: 15px;
+        margin-top: 20px;
+        width: 170px!important;
+    }
+    .tasks .indTask .content .taskText{
+        width: 200px;
+    }
+    .deleteBtn{
+        margin-top: 40px;
+    }
+}
+@media only screen and (min-width:631px) and (max-width:800px){
+    #mainP{
+        width: 60%!important;
+        margin-left:20%;
+    }
+    .indTask{
+        height: 15px;
+        margin-top: 20px;
+        width: 200px!important;
+    }
+    .tasks .indTask .content .taskText{
+        width: 250px;
+    }
+    .deleteBtn{
+        margin-top: 40px;
+    }
+}
+@media only screen and (min-width:801px) and (max-width:1450px){
+    #mainP{
+        width: 60%!important;
+        margin-left:20%;
+    }
+    .indTask{
+        height: 15px;
+        margin-top: 20px;
+        width: 200px!important;
+    }
+    .tasks .indTask .content .taskText{
+        width: 250px;
+    }
+    .deleteBtn{
+        margin-top: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
