@@ -25,7 +25,7 @@ span{
 }
 
 #mainP{
-    margin-top: -30px;
+    margin-top: -60px;
     background-color:rgba(0,0,0,0.2);
     border:solid 2px slategray; 
     border-radius: 30px;
@@ -149,7 +149,8 @@ display: flex;
     }
     .indTask{
         height: 10px;
-        margin-top: 20px;
+        /* margin-top: 0px; */
+        margin-bottom: 20px!important;
         width: 100%!important;
     }
     .tasks .indTask .content .taskText{
